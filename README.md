@@ -1,6 +1,6 @@
 # Transaction-Dashboard
 
-# MERN Stack Coding Challenge
+# MERN Stack Coding Challenge Solution
 
 ## Backend Task
 
@@ -12,13 +12,13 @@
 
 2. **APIs:**
    - **List Transactions:**
-     - API are supporting search and pagination on product transactions.
-     - Match search text on product title/description/price and return matching product transactions.
+     - API supports search and pagination on product transactions.
+     - Matching the search text on product title/description/price and return matching product transactions.
      - Default pagination values: `page = 1`, `per page = 10`.
    - **Statistics:**
      - Total sale amount of the selected month.
      - Total number of sold items of the selected month.
-     - Total number of not sold items of the selected month.
+     - Total number of not-sold items of the selected month.
    - **Bar Chart:**
      - Price range and the number of items in that range for the selected month.
      - Ranges:
@@ -39,28 +39,29 @@
        - Y category: 5 items
        - Z category: 3 items
    - **Combined Response:**
-     - Fetched data from all the above APIs, combine the response, and send a final combined JSON response.
+     - Fetched data from all the above APIs, combined the response, and sent a final combined JSON response.
 
 ## Frontend Task
 
 - Using the APIs to build the following on a single page:
   - **Transactions Table:**
     - List transactions using the API.
-    - Month dropdown should display options from January to December.
-    - Default selected month is March.
+    The month dropdown should display options from January to December.
+    The default selected month is March.
     - Table lists transactions of the selected month using the API.
-    - Search transactions box matches title/description/price and filters the transactions of the selected month using the API.
+    - Searching transactions box matches title/description/price and filters the transactions of the selected month using the API.
     - Clearing the search box displays the initial list of transactions for the selected month using the API.
-    - Pagination controls load data for the next/previous page using the API.
+    - Pagination uses API to control load data for the next/previous page.
   - **Transactions Statistics:**
-    - Display total sale amount, total sold items, and total not sold items for the selected month from the dropdown using the API.
+    - Using the API, display the total sale amount, total sold items, and total not sold items for the selected month from the dropdown.
   - **Transactions Bar Chart:**
-    - Display the price range and the number of items in that range for the selected month using the API.
+    Using the API, Display the price range and the number of items in that range for the selected month.
+  - Using Tailwind CSS for styling.
 
 ## Database
 
-- Using MongoDB Atlas for your database.
+- Using MongoDB Atlas for the database.
 
 ### Note
 
-Feel free to implement your own design to change the look and feel.
+Feel free to implement your design to change the look and feel.
